@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:10px 0;
+}
+
+h1 {
+    color:#123456;
+}
+
+h2 {
+    color:#11837c;
+}
+
+h3 {
+    color:#16aaa0;
+}
+
+ul, ol {
+    margin-left:20px;
+}
+
+p {
+    padding:10px 0;
+}
+
+.tartalom {
+    max-width:1080px;
+    margin:auto;
+    padding:15px;
+    background-color: #f0f0f0;
+    border:1px solid #dadada;
+    overflow: hidden;
+}
+
+.keretes-kep-kozepes {
+    width:300px;
+    height:300px;
+    border:2px solid #123456;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.keretes-kep-kozepes img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.bal {
+    float:left;
+}
+
+.jobb {
+    float:right;
+}
+
+.clear {
+    clear:both;
+    height:20px;
+}
+
+.margo-lent {
+    margin-right:15px;
+}
+
+nav {
+    height:80px;
+    background-color: #16aaa0;
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+}
+
+nav li {
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:hover {
+    background-color: #20568d;
+}
+
+nav a {
+    padding:15px;
+    color:white;
+    text-decoration: none;
+}
+
+.kijelolt-menu {
+    background-color: #123456;
+}
+
+.tablazat {
+    width:100%;
+    border:1px solid #123456;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.tablazat td, .tablazat th {
+    border:1px solid white;
+    padding:5px;
+}
+
+.tablazat thead {
+    background-color: #123456;
+    color:white;
+}
+
+.tablazat tbody tr:nth-child(2n) {
+    background-color: #11837c;
+    color:white;
+}
+
+.tablazat tbody tr:hover {
+    background-color:#16aaa0;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom:15px;
+    font-style: italic;
+}
+
+pre {
+    background-color:white;
+    border:1px solid #123456;
+    padding:10px;
+    text-wrap: wrap;
+    max-width:500px;
+    white-space: pre;
+}
+
+@media screen and (max-width:600px) {
+    .keretes-kep-kozepes {
+        clear:both;
+        margin:10px auto;
+        float:none;
+        width:90%;
+    }
+}

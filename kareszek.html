@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólió - Mechler Dénes - Számábrázolás</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Főoldal</a>
+            </li>
+            <li>
+                <a href="c_sharp.html">C#</a>
+            </li>
+            <li>
+                <a href="web.html">Webprogramozás</a>
+            </li>
+            <li>
+                <a href="word.html">Word</a>
+            </li>
+            <li class="kijelolt-menu">
+                <a href="kareszek.html">Karesz</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="tartalom">
+        <h1>Számábrázolás</h1>
+        <p>
+            <div class="keretes-kep-kozepes bal margo-lent">
+                <img src="kepek/binary.png">
+                <figcaption>Számábrázolás</figcaption>
+            </div>
+
+           
+
+        <div class="clear"></div>
+
+        <h2>Számábrázolási formák</h2>
+
+        <table class="tablazat">
+            <thead>
+                <tr>
+                    <th>Típus</th>
+                    <th>Leírás</th>
+                    <th>Példa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Egész szám (Integer)</td>
+                    <td>Pozitív és negatív egész számok ábrázolása. Általában 32 vagy 64 biten tárolják.</td>
+                    <td>int a = 42;</td>
+                </tr>
+                <tr>
+                    <td>Lebegőpontos szám (Floating Point)</td>
+                    <td>Valós számok ábrázolása. Az IEEE 754 szabványt használják, például egyszeres (32 bit) vagy kétszeres pontosságú (64 bit).</td>
+                    <td>float b = 3.14f;</td>
+                </tr>
+                <tr>
+                    <td>Fixpontos szám (Fixed Point)</td>
+                    <td>Valós számok ábrázolása, ahol az egész és törtrész külön tárolódik. Gyakran használják beágyazott rendszerekben.</td>
+                    <td>int c = 12345; // 123.45-nek felel meg, ha a tört rész 2 tizedesjegyű</td>
+                </tr>
+                <tr>
+                    <td>Bináris (Binary)</td>
+                    <td>A számok 2-es számrendszerben való ábrázolása. Az informatikában alapvető jelentőségű.</td>
+                    <td>0b1010 // 10 decimálisan</td>
+                </tr>
+                <tr>
+                    <td>Hexadecimális (Hexadecimal)</td>
+                    <td>A számok 16-os számrendszerben való ábrázolása. Gyakran használják a memória címzésében és színkódokban.</td>
+                    <td>0x1A3F // 6719 decimálisan</td>
+                </tr>
+                <tr>
+                    <td>Oktális (Octal)</td>
+                    <td>A számok 8-as számrendszerben való ábrázolása. Régebbi rendszereknél és bizonyos alkalmazásoknál használatos.</td>
+                    <td>0755 // 493 decimálisan</td>
+                </tr>
+                <tr>
+                    <td>BCD (Binary-Coded Decimal)</td>
+                    <td>Olyan számábrázolási forma, ahol minden decimális számjegyet négy bináris bit ábrázol.</td>
+                    <td>0011 1001 (39 decimálisan)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
